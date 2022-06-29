@@ -1,4 +1,4 @@
-#file <cli.py>
+#!/usr/bin/env python
 
 import prompt
 
@@ -6,4 +6,3 @@ import prompt
 def welcome_user():
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}! ')
-
