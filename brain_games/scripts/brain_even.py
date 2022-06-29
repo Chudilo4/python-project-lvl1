@@ -24,7 +24,7 @@ def main():
             count += 1
             print('Correct!')
         elif r_n % 2 == 0 and answer != 'yes' or r_n % 2 != 0 and answer != 'no':
-            print(f'''{answer}' is wrong answer ;(. Correct answer was '{wrong_answer}'.''')
+            print(f''''{answer}' is wrong answer ;(. Correct answer was '{wrong_answer}'.''')
             print(f'''Let's try again, {name}!''')
             break
         print(f'Congratulations, {name}!')
