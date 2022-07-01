@@ -25,4 +25,4 @@ def foo_parity(name):
                 c = 'yes'
             loss(c, answr, name)
             break
-        print(f'Congratulations, {name}!')
+    print(f'Congratulations, {name}!')
