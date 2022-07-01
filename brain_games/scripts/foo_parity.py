@@ -21,8 +21,10 @@ def foo_parity(name):
         else:
             if answr.lower() == 'yes':
                 c = 'no'
+                loss(c, answr, name)
+                return 0
             else:
                 c = 'yes'
-            loss(c, answr, name)
-            break
+                loss(c, answr, name)
+                return 0
     print(f'Congratulations, {name}!')
