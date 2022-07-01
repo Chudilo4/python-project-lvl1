@@ -23,4 +23,4 @@ def prime(name):
         else:
             loss(an_tr, an_us, name)
             break
-    print(f'Congratulations, {name}!')
+        print(f'Congratulations, {name}!')
