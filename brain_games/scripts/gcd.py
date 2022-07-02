@@ -22,5 +22,5 @@ def gcd(name):
             count += 1
         else:
             loss(tr_an, us_an, name)
-            break
-        print(f'Congratulations, {name}')
+            return 0
+    print(f'Congratulations, {name}')
