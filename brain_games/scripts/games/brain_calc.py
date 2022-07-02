@@ -7,8 +7,7 @@ from brain_games.scripts.question import question
 
 def main():
     name = hello()
-    print(name)
-    question('brain_calc', name)
+    question(name)
 
 
 if __name__ == '__main__':
