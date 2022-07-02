@@ -23,4 +23,4 @@ def gcd(name):
         else:
             loss(tr_an, us_an, name)
             return 0
-    print(f'Congratulations, {name}')
+    print(f'Congratulations, {name}!')
