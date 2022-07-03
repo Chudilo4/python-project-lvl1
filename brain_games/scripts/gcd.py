@@ -12,8 +12,8 @@ def gcd(name):
     count = 0
     tr_an = 0
     while count <= 2:
-        n1 = randint(0, 100)
-        n2 = randint(0, 100)
+        n1 = randint(1, 100)
+        n2 = randint(1, 100)
         print(f'Question: {n1} {n2}')
         tr_an = foo_gcd(max(n1, n2), min(n1, n2))
         us_an = prompt.string('Your answer: ')
