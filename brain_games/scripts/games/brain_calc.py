@@ -1,13 +1,11 @@
 # file <brain_calc.py>
 
 
-from brain_games.scripts.hello import hello
-from brain_games.scripts.question import question
+from brain_games.scripts.foo_all import question
 
 
 def main():
-    name = hello()
-    question(name)
+    question()
 
 
 if __name__ == '__main__':

@@ -1,12 +1,11 @@
 # file <brain_even.py>
 
-from brain_games.scripts.hello import hello
-from brain_games.scripts.foo_parity import foo_parity
+
+from brain_games.scripts.foo_all import parity
 
 
 def main():
-    name = hello()
-    foo_parity(name)
+    parity()
 
 
 if __name__ == '__main__':
